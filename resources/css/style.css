@@ -1,0 +1,87 @@
+body {
+  color: Seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity: 0.9;
+  background-color: Black;
+}
+
+.logo {
+  margin-left: 10px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 50px;
+}
+
+header {
+  height: 69px;
+  border-bottom: 1px solid Seashell;
+  width: 100%;
+  margin: 0px;
+  z-index: 5;
+  position: fixed;
+}
+
+.nav {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 0px 12px;
+}
+
+.nav a {
+  color: Seashell;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 69px;
+}
+
+.mission {
+  background-image: url(../images/img-mission-background.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 1200px;
+  height: 700px;
+}
+
+.featured {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 780px;
+}
+
+.box img {
+  width: 300px;
+  height: 200px;
+}
+
+h2,
+h4 {
+  width: 100%;
+  background-color: Black;
+  margin: 0px;
+  padding: 10px;
+}
