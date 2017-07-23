@@ -1,24 +1,9 @@
-html {
+body {
   font-family: Helvetica;
   font-size: 22px;
   color: Seashell;
-}
-
-body {
   background-color: Black;
   margin: 0px;
-  opacity: 0.5;
-}
-
-/* common statements */
-
-h2,
-h4 {
-  width: 100%;
-  background-color: Black;
-  margin: 0px;
-  padding: 10px;
-  color: Seashell;
   opacity: 0.9;
 }
 
@@ -81,6 +66,14 @@ header {
   height: 700px;
 }
 
+h2,
+h4 {
+  width: 100%;
+  background-color: Black;
+  margin: 0px;
+  padding: 10px;
+}
+
 /* Featured section */
 .featured {
   width: 1000px;
@@ -122,11 +115,14 @@ header {
 }
 
 .loc-header {
-  margin-top: 50px;
+  margin: 50px auto 15px auto;
+  padding: 0px;
 }
 
 .loc-header h2 {
   background: none;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .loc-boxes {
@@ -137,7 +133,7 @@ header {
   background-color: black;
   width: 300px;
   height: 280px;
-  margin: 20px;
+  margin: 0px 20px;
   opacity: 0.9;
 }
 
