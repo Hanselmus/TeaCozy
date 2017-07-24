@@ -79,9 +79,8 @@ h4 {
   width: 1000px;
   display: flex;
   text-align: center;
-  position: relative;
   flex-direction: column;
-  top: 70px;
+  padding-top: 70px;
 }
 
 .teas {
@@ -110,8 +109,7 @@ h4 {
   text-align: center;
   width: 1200px;
   min-height: 500px;
-  position: relative;
-  top: 140px;
+  padding-top: 70px;
 }
 
 .loc-header {
@@ -143,9 +141,7 @@ h4 {
 
 /* Contact section */
 .contact {
-  height: 200px;
-  position: relative;
-  top: 140px;
+  min-height: 200px;
   text-align: center;
 }
 
@@ -155,7 +151,5 @@ h4 {
 
 /* Footer */
 .footer {
-  position: relative;
-  top: 220px;
-  margin-left: 20px;
+  margin: 70px 0px 0px 20px;
 }
